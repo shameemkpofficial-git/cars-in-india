@@ -65,43 +65,43 @@ function HomeB(){
     ]
 
     const renderItem = ({ item }) =>(
-        <View style={{height:247, width:180, backgroundColor:'#fff', marginLeft:10, marginBottom:10}}>
+        <View style={{height:'65%', width:'45%', backgroundColor:'#fff', marginLeft:'3%', marginBottom:'3%'}}>
 
-            <Image source={item.image} style={{height:109, width:172, marginLeft:5, marginTop:5}}></Image>
-            <View style={{height:16, width:42, backgroundColor:'#3FB0E5', borderRadius:10, marginLeft:11}}>
-                <Text style={{fontSize:8, marginLeft:10, color:'white', marginTop:2, height:10, width:21}}>Used</Text>
+            <Image source={item.image} style={{height:'45%', width:'90%', marginLeft:'2%', marginTop:'1%'}}></Image>
+            <View style={{height:'6%', width:'22%', backgroundColor:'#3FB0E5', borderRadius:10, marginLeft:'6%'}}>
+                <Text style={{fontSize:8, marginLeft:'25%', color:'white', marginTop:'5%', height:'70%', width:'60%'}}>Used</Text>
             </View>
             <IonIcons name='location' size={10} color='#8D97A8'
-            style={{bottom:15, left:55}}></IonIcons>
-            <Text style={{color:"#8D97A8", left:65, bottom:27, fontSize:9}}>{item.location}</Text>
-            <Text style={{fontSize:10, color:'black', marginLeft:10, bottom:20, fontWeight:'bold', width:94}}>{item.name}</Text>
-            <Text style={{marginLeft:10, fontSize:12, color:'#222733', fontWeight:'bold', bottom:20, width:75}}>{item.price}</Text>
-            <Text style={{fontSize:8, color:'#8D97A8', marginLeft:10, bottom:10, fontWeight:'400'}}>{item.driven}</Text>
-            <Text style={{fontSize:8, color:'#8D97A8', marginLeft:67, bottom:21, fontWeight:'400'}}>{item.fuel}</Text>
-            <Text style={{fontSize:8, color:'#8D97A8', marginLeft:108, bottom:32, fontWeight:'400'}}>{item.year}</Text>
+            style={{bottom:'5%', left:'31%'}}></IonIcons>
+            <Text style={{color:"#8D97A8", left:'38%', bottom:'9%', fontSize:9}}>{item.location}</Text>
+            <Text style={{fontSize:10, color:'black', marginLeft:'6%', bottom:'7%', fontWeight:'bold', width:'60%'}}>{item.name}</Text>
+            <Text style={{marginLeft:'6%', fontSize:12, color:'#222733', fontWeight:'bold', bottom:'7%', width:'30%'}}>{item.price}</Text>
+            <Text style={{fontSize:8, color:'#8D97A8', marginLeft:'6%', bottom:'2%', fontWeight:'400'}}>{item.driven}</Text>
+            <Text style={{fontSize:8, color:'#8D97A8', marginLeft:'35%', bottom:'6%', fontWeight:'400'}}>{item.fuel}</Text>
+            <Text style={{fontSize:8, color:'#8D97A8', marginLeft:'57%', bottom:'10%', fontWeight:'400'}}>{item.year}</Text>
 
-            <View style={{height:20, width:13, backgroundColor:'#EFF3FA', marginLeft:10}}>
+            <View style={{height:'7%', width:'7%', backgroundColor:'#EFF3FA', marginLeft:'6%'}}>
                 <Text style={{fontSize:12, color:'#000000', textAlign:'justify', marginLeft:2}}>1</Text>
             </View>
-            <View style={{height:20, width:13, backgroundColor:'#EFF3FA', marginLeft:27, bottom:20}}>
+            <View style={{height:'7%', width:'7%', backgroundColor:'#EFF3FA', marginLeft:'15%', bottom:'7%'}}>
                 <Text style={{fontSize:12, color:'#000000', textAlign:'justify', marginLeft:2}}>2</Text>
             </View>
-            <View style={{height:20, width:13, backgroundColor:'#EFF3FA', marginLeft:53, bottom:40}}>
+            <View style={{height:'7%', width:'7%', backgroundColor:'#EFF3FA', marginLeft:'30%', bottom:'14%'}}>
                 <Text style={{fontSize:12, color:'#000000', textAlign:'justify', marginLeft:2}}>0</Text>
             </View>
-            <View style={{height:20, width:13, backgroundColor:'#EFF3FA', marginLeft:70, bottom:60}}>
+            <View style={{height:'7%', width:'7%', backgroundColor:'#EFF3FA', marginLeft:'40%', bottom:'21%'}}>
                 <Text style={{fontSize:12, color:'#000000', textAlign:'justify', marginLeft:2}}>2</Text>
             </View>
-            <View style={{height:20, width:13, backgroundColor:'#EFF3FA', marginLeft:95, bottom:80}}>
+            <View style={{height:'7%', width:'7%', backgroundColor:'#EFF3FA', marginLeft:'55%', bottom:'28%'}}>
                 <Text style={{fontSize:12, color:'#000000', textAlign:'justify', marginLeft:2}}>0</Text>
             </View>
-            <View style={{height:20, width:13, backgroundColor:'#EFF3FA', marginLeft:113, bottom:100}}>
+            <View style={{height:'7%', width:'7%', backgroundColor:'#EFF3FA', marginLeft:'64%', bottom:'35%'}}>
                 <Text style={{fontSize:12, color:'#000000', textAlign:'justify', marginLeft:2}}>6</Text>
             </View>
-            <View style={{height:20, width:13, backgroundColor:'#EFF3FA', marginLeft:138, bottom:120}}>
+            <View style={{height:'7%', width:'7%', backgroundColor:'#EFF3FA', marginLeft:'78%', bottom:'42%'}}>
                 <Text style={{fontSize:12, color:'#000000', textAlign:'justify', marginLeft:2}}>5</Text>
             </View>
-            <View style={{height:20, width:13, backgroundColor:'#EFF3FA', marginLeft:155, bottom:140}}>
+            <View style={{height:'7%', width:'7%', backgroundColor:'#EFF3FA', marginLeft:'87%', bottom:'49%'}}>
                 <Text style={{fontSize:12, color:'#000000', textAlign:'justify', marginLeft:2}}>3</Text>
             </View>
             
@@ -109,27 +109,27 @@ function HomeB(){
     )
     return(
         <View style={styles.mainContainer}>
-            <IonIcons name='location' size={13} color='black'
-            style={{ marginLeft:10, top:17}}></IonIcons>
-            <Text style={{marginLeft:25, color:'#000000', fontSize:15 }}>Kakkanad, Kochi</Text>
+            <IonIcons name='location' size={14} color='black'
+            style={{ marginLeft:'3%', top:'2%'}}></IonIcons>
+            <Text style={{marginLeft:'7%', color:'#000000', fontSize:15, }}>Kakkanad, Kochi</Text>
 
             <FontAwesome name='bell' size={24} color='black' 
-            style={{marginLeft:270, bottom:17}} />
+            style={{marginLeft:'70%', bottom:'2%'}} />
             <Image source={require('../Images/avatar.png')}
-            style={{height:40, width:37, borderRadius:20, marginLeft:310, bottom:50}}></Image>
+            style={{height:'5%', width:'10%', borderRadius:20, marginLeft:'80%', bottom:'6%'}}></Image>
             
-            <Text style={{fontSize:46, color:'black', marginLeft:10, bottom:65}}>Hi,</Text>
-            <Text style={{fontSize:23, color:'black', marginLeft:10, bottom:60}}>Tom Manual</Text>
-            <Text style={{color:'#8D97A8', marginLeft:10, bottom:50}}>Start your auction now. Find your next deal.</Text>
+            <Text style={{fontSize:46, color:'black', marginLeft:'3%', bottom:'8%'}}>Hi,</Text>
+            <Text style={{fontSize:23, color:'black', marginLeft:'3%', bottom:'9%'}}>Tom Manual</Text>
+            <Text style={{color:'#8D97A8', marginLeft:'3%', bottom:'6%'}}>Start your auction now. Find your next deal.</Text>
 
-            <TextInput placeholder='Search' style={{height:48, width:303, backgroundColor:'#FFFFFF', borderRadius:5, bottom:30, marginLeft:10}}>
-                <IonIcons name='search' size={24} color='#8D97A8'></IonIcons>
+            <TextInput placeholder='Search' style={{height:'8%', width:'77%', backgroundColor:'#FFFFFF', borderRadius:5, bottom:'4%', marginLeft:'3%'}}>
+                <IonIcons name='search' size={25} color='#8D97A8'></IonIcons>
             </TextInput>
-            <View style={{backgroundColor:'#3FB0E5', height:48, width:62, borderRadius:3, marginLeft:320, bottom:78}}>
+            <View style={{backgroundColor:'#3FB0E5', height:'7%', width:'14%', borderRadius:3, marginLeft:'82%', bottom:78}}>
                 <IonIcons name='settings-outline' size={24} color='#fff'
-                style={{height:32, width:32, marginLeft:18, marginTop:10}}/>
+                style={{height:'50%', width:'40%', marginLeft:'25%', marginTop:'20%'}}/>
             </View>
-            <View style={{height:'100%', backgroundColor:'#EFF3FA', width:'100%', bottom:65}}>
+            <View style={{height:'100%', backgroundColor:'#EFF3FA', width:'100%', bottom:'10%'}}>
             <FlatList
             data={cars}
             renderItem={renderItem}
@@ -141,8 +141,8 @@ function HomeB(){
 
 const styles = StyleSheet.create({
     mainContainer:{
-        height:735,
-        width:414,
+        height:'100%',
+        width:'100%',
         backgroundColor:'#EFF3FA'
     }
 })
