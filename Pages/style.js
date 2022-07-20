@@ -82,10 +82,11 @@ const styles = StyleSheet.create({
         marginLeft: 10 
     },
     flatlistView:{
-        height: '100%', 
+        height: 250, 
         width: '45%', 
         backgroundColor: '#fff', 
-        marginLeft: '3%'
+        marginLeft: '3%',
+        marginTop:10
     },
     carImage:{
         height: '45%', 
