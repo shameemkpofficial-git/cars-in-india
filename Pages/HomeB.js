@@ -116,7 +116,7 @@ function HomeB() {
     )
     return (
         <View style={styles.mainContainer}>
-            <ScrollView>
+            
             <View style={styles.topView}>
                 <View style={styles.locationView}>
                     <IonIcons name='location' size={14} color='black'></IonIcons>
@@ -156,7 +156,6 @@ function HomeB() {
                 data={cars}
                 renderItem={renderItem}
                 numColumns={2}></FlatList>
-         </ScrollView>
 
         </View>
     )
